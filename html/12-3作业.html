@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*内外边距为零*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #waikuang{
+            width: 1190px;
+            height: 480px;
+            border: black 1px solid;
+        }
+        #waikuang .fenlei{
+            width: 190px;
+            border-right: black 1px solid;
+            list-style: none;
+            padding-top: 10px;
+        }
+        #waikuang .fenlei li{
+            height: 25px;
+            border-bottom: black 1px solid;
+            padding-left: 20px;
+        }
+        #waikuang .fenlei, #waikuang .piaofu, #waikuang .dakuang{
+            float: left;
+        }
+        #waikuang .dakuang{
+            width: 190px;
+            height: 470px;
+            border: black 1px solid;
+            margin-left: 10px;
+        }
+        #waikuang .xiaokuang{
+            width: 190px;
+            height: 150px;
+            border-bottom: black 1px solid;
+            margin-top: 5px;
+        }
+        #waikuang .fenlei li a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="waikuang">
+        <ul class="fenlei">
+            <li><a href="http://www.baidu.com">家用电器</a></li>
+            <li>手机</li>
+            <li>电脑</li>
+            <li>家居</li>
+            <li>男装</li>
+            <li>美妆</li>
+            <li>女鞋</li>
+            <li>男鞋</li>
+            <li>房产</li>
+            <li>母婴</li>
+            <li>食品</li>
+            <li>艺术</li>
+            <li>医药保健</li>
+            <li>图书</li>
+            <li>机票</li>
+            <li>理财</li>
+            <li>安装</li>
+            <li style="width: 190px;height: 25px;border: none" >工业品</li>
+        </ul>
+            <div class="piaofu">
+                <img src="https://img20.360buyimg.com/pop/s1180x940_jfs/t1/83050/27/16074/98786/5dd797dcE99736314/8e9e247522ebf4f1.jpg.webp" width="590px" height="470px">
+            </div>
+            <div class="dakuang">
+                <div class="xiaokuang">
+                    <img src="https://img10.360buyimg.com/babel/s380x300_jfs/t1/99084/12/3426/106313/5de0af7aEb58f2a42/a05893f3f7a6e9d9.jpg!q95.webp" width="190px" height="150px">
+                </div>
+                <div class="xiaokuang">
+                    <img src="https://img13.360buyimg.com/babel/s380x300_jfs/t1/64549/22/16264/93181/5ddfbfd8E0237f261/a05366be112bafe0.jpg.webp" height="150px">
+                </div>
+                <div class="xiaokuang" style="width: 190px;height: 150px;border: none">
+                    <img src="https://img13.360buyimg.com/babel/s380x300_jfs/t1/102709/14/3923/97303/5de4ad22E5408398d/2099c6d91a4c77c5.png.webp" width="190px" height="150px">
+                </div>
+            </div>
+            <div>
+                <img src="../img/捕获.PNG" alt="">
+            </div>
+            <!--漂浮-->
+            <div style="clear: left"></div>
+    </div>
+</body>
+</html>

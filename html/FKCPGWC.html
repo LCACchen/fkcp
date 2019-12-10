@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>Title</title>
+    <style>
+        html body{
+            height: 100%;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        /*************************************************************************************************************/
+        /*外框*/
+        #outline{
+            width: 100%;
+        }
+        /*************************************************************************************************************/
+        /*框一*/
+        #borderone{
+            background-color: #b81c22;
+            padding: 3%;
+            text-align: center;
+            color: white;
+            font-size: 1.1rem;
+        }
+        /*************************************************************************************************************/
+        /*框二*/
+        #bordertwo h5:nth-child(1){
+            display:inline-block;
+        }
+        h5{
+            font-weight:normal;
+        }
+        .typefaceone{
+            background-color: #b81c22;
+            border-radius: 3px 3px 3px 3px;
+            color: white;
+            display:inline-block;
+        }
+        #bordertwo .border2-1{
+            display: flex;
+            border-top: darkgray 1px solid;
+            border-bottom: darkgray 1px solid;
+        }
+        #bordertwo .border2-1 div:nth-child(2){
+
+        }
+        .input{
+            width: 10%;
+            border: darkgray 1px solid;
+            /*position: relative;*/
+            /*bottom: 0px;*/
+        }
+        /*************************************************************************************************************/
+        /*框三*/
+        #borderthree{
+            width: 100%;
+            padding: 5%;
+            position: fixed;
+            bottom: 0px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content:space-around;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="outline">
+        <div id="borderone">
+            购物车
+        </div>
+        <div id="bordertwo">
+            <h5>在售商品:</h5>
+            <h5 class="typefaceone">全不选</h5>
+            <h5 class="typefaceone">删除</h5>
+            <div class="border2-1">
+                <input type="checkbox">
+                <img src="http://i.vanclimg.com/640/q80/product/6/3/8/6386597/big/6386597-1j201910091715385994.jpg" width="20%" height="20%">
+                <div>
+                    <h5 class="typefaceonetwo">凡客男款强缩绒牛角扣大衣</h5>
+                    <h5 class="typefaceonetwo">颜色:黑色&nbsp;&nbsp;&nbsp;&nbsp;尺码: M</h5>
+                    <h5 class="typefaceonetwo">¥ 1398.00</h5>
+                    <input class="input" type="number" value="1">
+                </div>
+            </div>
+        </div>
+        <div id="borderthree">
+            <div>
+                <h4>需支付:XXX.XX</h4>
+                <h5>总金额 &nbsp XXX.XX &nbsp 已优惠 &nbsp XXX.XX</h5>
+            </div>
+            <br>
+            <input style="background-color: #b81b22;color: white;margin-right: 5%" type="submit" value="  结算（1）">
+        </div>
+    </div>
+</body>
+</html>

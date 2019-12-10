@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="minimal-ui=yes,width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--<link rel="stylesheet" href="../css/iconfont/iconfont.css" type="text/css">-->
+    <title>Title</title>
+    <style>
+        /*<!--格式设定-->*/
+        html body{
+            height: 100%;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*************************************************************************************************************/
+        /*外框*/
+        #outline{
+            width: 100%;
+            height: 100%;
+        }
+        /*************************************************************************************************************/
+        /*框一*/
+        #borderone{
+            width: 100%;
+            height: 2.8rem;
+            background-color: #b81c22;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+        }
+        #borderone span{
+            color: white;
+            font-size: 1.1rem;
+        }
+        /*************************************************************************************************************/
+        /*框二*/
+        #bordertwo{
+            display: flex;
+            justify-content:space-around;
+        }
+        #bordertwo div{
+            font-size: 1.1rem;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            color: #666666;
+        }
+        /*************************************************************************************************************/
+        /*框三*/
+        #borderthree{
+            text-align: center;
+        }
+        #borderthree div{
+            margin: 10%;
+        }
+        #borderthree div:nth-child(1) input,#borderthree div:nth-child(2) input{
+            width: 80%;
+            height: 30px;
+            background-color: #f5f5f5;
+            border:none;
+        }
+        /*************************************************************************************************************/
+        /*框四*/
+        #borderfour{
+            display: flex;
+            justify-content:center;
+        }
+        #borderfour div{
+            width: 80%;
+            padding: 3%;
+            background-color: #b81b22;
+            text-align: center;
+            color: white;
+        }
+        /*************************************************************************************************************/
+        /*框五*/
+        #borderfive{
+            display: flex;
+            justify-content:space-around;
+        }
+        #borderfive a:nth-child(1){
+            /*float: left;*/
+            color: black;
+            text-decoration: none;
+
+        }#borderfive a:nth-child(2){
+            /*float: right;*/
+            color: black;
+            text-decoration: none;
+        }
+        /*************************************************************************************************************/
+
+    </style>
+</head>
+<body>
+    <div id="outline">
+        <div id="borderone">
+            <span>登录</span>
+        </div>
+        <div id="bordertwo">
+            <div>普通登录</div>
+            <div>快速登录</div>
+        </div>
+        <div id="borderthree">
+            <div>
+                <input type="text" placeholder="点击输入手机号/Email">
+            </div>
+            <div>
+                <input type="text" placeholder="请输入密码">
+            </div>
+        </div>
+        <div id="borderfour">
+            <div>登&nbsp录</div>
+        </div>
+        <div id="borderfive">
+            <a href="http://m.vancl.com/User/UserRegister?url=https://m.vancl.com/User/UserCenterIndex?guid=35e38e31abb34ffc9f9b6c408bc4f998">免费注册</a>
+            <a href="http://m.vancl.com/User/RetrieveStep1">手机账号取回密码</a>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>

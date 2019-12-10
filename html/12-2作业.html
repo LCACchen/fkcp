@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #waikuang{
+            height: 260px;
+            width: 1000px;
+            border: black 1px solid;
+            overflow: hidden;
+        }
+        .neikuang{
+            height: 260px;
+            width: 200px;
+            background: ivory;
+            padding-top: 30px;
+            text-align: center;
+        }
+        .neikuang:nth-child(1){
+            background: url("https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/4a15d8883775742e3efbb850ae14def7.png");
+            font-size: 30px;
+            color:white;
+        }
+        .shangpinming{
+            width: 160px;
+            height:18px;
+            white-space: nowrap;
+            /*超出部分不换行*/
+            overflow: hidden;
+            /*超出部分隐藏*/
+            text-overflow: ellipsis;
+            /*超出文本框部分以省略号形式展示（这三个条件需要共同使用）*/
+            margin-left: 19px;
+            /*据左侧19像素*/
+            margin-top: 10px;
+        }
+        .jiage{
+            margin-top: 20px;
+        }
+        li{
+            list-style: none;
+            display:inline-block;
+            vertical-align: top;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="waikuang">
+        <ul>
+            <li class="neikuang">
+                京东秒杀
+               <div style="margin-top: 100px;font-size: 25px">
+                   XX:XX 点场专场
+               </div>
+            </li><li class="neikuang" >
+                <img src="https://img10.360buyimg.com/mobilecms/s280x280_jfs/t1/90133/9/3271/189842/5dddfe88E2907512f/c563ab11f2fe5dca.jpg.webp"  width="140px" height="140px">
+                <div class="shangpinming">
+                    【精选皮质 直降2800】【全球限量发售】法国名品 轻奢定制 专柜特供 高级手工定制款舒适保暖休闲鞋 棕色-全球限量款 41
+                </div>
+                <div class="jiage">
+                    价格XXX元
+                </div>
+            </li><li class="neikuang">
+                <img src="https://img20.360buyimg.com/mobilecms/s280x280_jfs/t1/69329/23/16619/134782/5de0b176E9fd72e47/059a6331ea6328d8.jpg.webp"  width="140px" height="140px">
+                <div class="shangpinming">
+                    【胖子救星！不节食不运动】【 买5送5，10盒一周期】懒人贴 水桶腰 啤酒肚 产后肥胖赘肉 全身可贴
+                </div>
+                <div class="jiage">
+                    价格XXX元
+                </div>
+            </li><li class="neikuang">
+                <img src="https://img13.360buyimg.com/mobilecms/s280x280_jfs/t1/94241/26/2007/98276/5dc92aefE4a63189b/ab4e49ea50b754e1.jpg.webp" width="140px" height="140px">
+                <div class="shangpinming">
+                    洁仕宝 双面擦玻璃神器高层家用擦窗器伸缩杆可调磁清洁工具清洗玻璃刮水器适用于5-26MM
+                </div>
+                <div class="jiage">
+                    价格XXX元
+                </div>
+            </li><li style="height: 260px;width: 200px;background: ivory;text-align: center;">
+                <img src="https://img30.360buyimg.com/mobilecms/s260x260_jfs/t1/53585/10/13803/302341/5daa8681Ec78812c3/d39d6d1e66811016.png.webp"height="260px" width="200px">
+            </li>
+        </ul>
+
+    </div>
+</body>
+</html>

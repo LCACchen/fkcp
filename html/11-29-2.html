@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .a{
+            height: 100px;
+            width: 100px;
+            border: red 1px solid;
+        }
+        #b{
+            height: 400px;
+            width: 500px;
+            border: yellow 1px solid;
+        }
+        /*sold实线*/
+        ol{
+            list-style: none;
+            /*list：列表*/
+            /*style：样式*/
+            /*none:没有*/
+        }
+        li{
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            /*align:排列*/
+            /*center：中心*/
+            border: coral 1px solid;
+            display:inline-block;
+            /*display：表现*/
+            /*block:块*/
+            /*inline：行内*/
+            /*表现为行内块*/
+            line-height: 200px;
+
+
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            /*padding：填充*/
+            /*margin:边缘*/
+        }
+
+    </style>
+
+</head>
+<body>
+<form >
+
+    <input type="number" >
+    <!--password(字母)/number（数字）-->
+    <div>
+        <label  >男<input type="radio" name="1"checked></label>女<input type="radio" name="1">
+    </div>
+
+    <div>
+        男<input >女<input>
+    </div>
+
+    <div>
+        男<input type="radio" name="1">女<input type="radio" name="1">
+    </div>
+    <!--radio单选框-->
+    <!--input不填type默认type值为text-->
+    <!--label字和框一组，增大可选择范围-->
+    <!--checked默认选中某一项-->
+    <div>
+
+        爱好
+    </div>
+    <div>
+        吃<input type="checkbox" name="2">
+    </div>
+
+    <div>
+        喝<input type="checkbox" name="2">
+    </div>
+
+    <div>
+        睡<input type="checkbox" name="2">
+    </div>
+
+    <div>
+    <!--&lt;!&ndash;checkbox复选框&ndash;&gt;-->
+    <input type="button">
+    button搜索按钮
+    <input type="submit">
+    <!--submit提交按钮-->
+    <input type="reset">
+    <!--rest重置按钮-->
+    <input type="file">
+    <!--file选择文件按钮-->
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option selected="selected">5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>0</option>
+
+        </select>
+    </div>
+    <div class="a" id="b">123456</div>
+    <!--&lt;!&ndash;<div id="b">123456</div>&ndash;&gt;-->
+    <!--<div style="width: 200px ;height: 300px;border: aqua 1px solid">123456</div>-->
+    <!--<div class="a" style="width: 200px ;height: 300px;border: aqua 1px solid">123456</div>-->
+    <!--<div id="b" style="width: 200px ;height: 300px;border: aqua 1px solid">123456</div>-->
+    <ol>
+        <li>女装</li>
+        <li>鞋靴</li>
+        <li>童装玩具</li>
+        <li>家电</li>
+        <li>美妆</li>
+        <li>珠宝</li>
+        <li>运动</li>
+        <li>游戏</li>
+        <li>美食</li>
+
+    </ol>
+</form>
+</body>
+</html>
